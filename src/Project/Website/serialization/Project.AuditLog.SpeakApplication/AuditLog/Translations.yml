@@ -1,0 +1,14 @@
+﻿---
+ID: "1aecef5c-54bc-48f7-9fe0-7bf7f7e02def"
+Parent: "83517abc-6712-471b-a9ec-ea1a2a05a3e4"
+Template: "36dd4494-a899-45ae-b1e1-689e4f2d663a"
+Path: /sitecore/client/Your Apps/AuditLog/Translations
+DB: core
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180809T223205Z

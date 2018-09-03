@@ -1,0 +1,22 @@
+﻿---
+ID: "6b4a96c9-4093-46a5-8c58-bbb13af02af6"
+Parent: "1aecef5c-54bc-48f7-9fe0-7bf7f7e02def"
+Template: "36d55ae2-934a-4fd4-9ebe-d8dd2d8becb9"
+Path: /sitecore/client/Your Apps/AuditLog/Translations/Dashboard Page
+DB: core
+SharedFields:
+- ID: "580c75a8-c01a-4580-83cb-987776ceb3af"
+  Hint: Key
+  Value: DASHBOARD_PAGE
+Languages:
+- Language: en
+  Fields:
+  - ID: "2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e"
+    Hint: Phrase
+    Value: Dashboard Page
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171109T204323Z

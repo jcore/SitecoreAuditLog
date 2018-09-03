@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{D747A5F1-47A4-4BBF-9448-2F742AB6EE24}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{2A2C34FA-9BB3-4CC0-8021-05FB94C210E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{5586FC99-C9D1-4013-AD2A-B7B5DB147108}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{4DAE7EEA-6802-4A8D-80F2-975CC5AD39DC}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		gulp-config.js = gulp-config.js
+		gulpfile.js = gulpfile.js
+		nuget.config = nuget.config
+		package.json = package.json
+		publishsettings.targets = publishsettings.targets
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{372A299B-0FBD-4E5D-AFD8-4231F308D9C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.AuditLog.Website", "src\Project\Website\code\Project.AuditLog.Website.csproj", "{007B3DD8-167F-49EE-8F6C-78FFCAD2885F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AuditLogService", "AuditLogService", "{2EEBAF07-F55C-418A-B591-FBD2AFDFF4DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feature.AuditLogService", "src\Feature\AuditLogService\code\Feature.AuditLogService.csproj", "{2548F05D-BE5C-475D-B0D0-0A9B16C86362}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{007B3DD8-167F-49EE-8F6C-78FFCAD2885F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{007B3DD8-167F-49EE-8F6C-78FFCAD2885F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{007B3DD8-167F-49EE-8F6C-78FFCAD2885F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{007B3DD8-167F-49EE-8F6C-78FFCAD2885F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2548F05D-BE5C-475D-B0D0-0A9B16C86362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2548F05D-BE5C-475D-B0D0-0A9B16C86362}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2548F05D-BE5C-475D-B0D0-0A9B16C86362}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2548F05D-BE5C-475D-B0D0-0A9B16C86362}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{372A299B-0FBD-4E5D-AFD8-4231F308D9C6} = {5586FC99-C9D1-4013-AD2A-B7B5DB147108}
+		{007B3DD8-167F-49EE-8F6C-78FFCAD2885F} = {372A299B-0FBD-4E5D-AFD8-4231F308D9C6}
+		{2EEBAF07-F55C-418A-B591-FBD2AFDFF4DB} = {D747A5F1-47A4-4BBF-9448-2F742AB6EE24}
+		{2548F05D-BE5C-475D-B0D0-0A9B16C86362} = {2EEBAF07-F55C-418A-B591-FBD2AFDFF4DB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC85D56B-408D-4D8B-ACA5-1F3A50AC9FE5}
+	EndGlobalSection
+EndGlobal
