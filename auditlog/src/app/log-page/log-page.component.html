@@ -1,0 +1,30 @@
+<sc-page [showNav]="isNavigationShown">
+  <div scPageHeader>
+    <sc-global-header [appName]="'APP_NAME' | translate" [(show)]="isNavigationShown">
+      <a href="#" scGlobalLogo></a>
+      <!-- AccountInformation gets accountName and accountImageUrl automatically from Sitecore context which is configured in AppModule -->
+      <sc-account-information (logout)="logoutService.logout()"></sc-account-information>
+    </sc-global-header>
+  </div>
+  <div scPageAppHeader>
+    <sc-application-header [text]="'DASHBOARD_PAGE' | translate"></sc-application-header>
+  </div>
+  <article scPageContent>
+    <table scTable>
+      <thead  scSort (sortChange)="onSortChange($event)" sortBehavior="multi">
+        <tr>
+          <th scSortHeader="Time">Time</th>
+          <th scSortHeader="User">User</th>
+          <th scSortHeader="Action">Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let entry of logEntries">
+            <td width="20%">{{ entry.Time }}</td>
+            <td width="20%">{{ entry.User }}</td>
+            <td width="60%">{{ entry.Action }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </article>
+</sc-page>
